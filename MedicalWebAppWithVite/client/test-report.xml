@@ -1,0 +1,34 @@
+<testExecutions version="1">
+  <file path="src\pages\User\__tests__\Login\Login.test.tsx">
+    <testCase name="Login - Should contain a person icon at the top" duration="164" />
+    <testCase name="Login - Should contain Register text at the top" duration="36" />
+    <testCase name="Login - Email should be rendered" duration="34" />
+    <testCase name="Login - Password should be rendered" duration="30" />
+    <testCase name="Login - Confirm password should be rendered" duration="91" />
+    <testCase name="Login - Email should be empty" duration="34" />
+    <testCase name="Login - Password should be empty" duration="28" />
+    <testCase name="Login - Loading button should be disabled" duration="39" />
+    <testCase name="Login - Show password" duration="31" />
+    <testCase name="Login - password as password type" duration="32" />
+    <testCase name="Login - Password visibility for password" duration="53" />
+    <testCase name="Login - Input should change according to value typed" duration="75" />
+    <testCase name="Login - Button must be disabled when only email exists and appropriate required error message must be shown" duration="107" />
+    <testCase name="Login - Button must be disabled when only password exists and appropriate required error message must be shown" duration="81" />
+    <testCase name="Login - Button must be disabled when only all fields are required" duration="92" />
+    <testCase name="Login - Button must be enabled when only all fields exist" duration="68" />
+    <testCase name="Login - Fields are required" duration="20" />
+    <testCase name="Login - Validation error when email is not valid" duration="74" />
+    <testCase name="Login - Validation error when email does not match format" duration="70" />
+    <testCase name="Login - Validation error when password is not valid" duration="72" />
+    <testCase name="Login - Validation error when password is less than 8 characters" duration="67" />
+    <testCase name="Login - Validation error when password is more than 8 characters" duration="90" />
+    <testCase name="Login - Should contain Already have an account text for user who already has an account" duration="27" />
+    <testCase name="Login - Should contain link to login page" duration="37" />
+    <testCase name="Login - Should contain copyright text at the end" duration="28" />
+    <testCase name="Login - should call handleLogin when user Email is not good on form submit" duration="178" />
+    <testCase name="Login - should call handleLogin when user Password is not good on form submit" duration="158" />
+    <testCase name="Login - should call handleLogin when user Eamil and Password is not good on form submit" duration="187" />
+    <testCase name="Login - should call handleLogin when there is no server" duration="214" />
+    <testCase name="Login - should call handleRegister with correct parameters on form submit and direct to homepage" duration="203" />
+  </file>
+</testExecutions>
